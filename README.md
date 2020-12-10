@@ -10,11 +10,14 @@ This application supports the [Getting Started with Java on Heroku](https://devc
 
 Make sure you have Java and Maven installed.  Also, install the [Heroku CLI](https://cli.heroku.com/).
 
+Removed  "$ heroku local:start" and added mvn spring-boot:run
+
+
 ```sh
-$ git clone https://github.com/heroku/java-getting-started.git
+$ git clone https://github.com/cloudanor/java-getting-started.git
 $ cd java-getting-started
 $ mvn install
-$ heroku local:start
+$ mvn spring-boot:run
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
